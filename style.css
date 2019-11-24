@@ -14,11 +14,53 @@ body{
     width: '960px';
     font-size: '18px';
     background-color: gray;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin: auto;
     text-align: center;
 }
 
+nav,header,section,aside,footer{
+    display: block;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    background: #ebebeb;
+}
+
+section{
+    float: left;
+    width: 55%;
+    height: 267px;
+    overflow: hidden;
+}
+
+aside{
+    float: right;
+    width: 40%;
+    height: 267px;
+    overflow: hidden;
+}
+
+article{
+    padding: 10px;
+    color: #ebebeb;
+    background: #777777;
+}
+
+h1,p{
+    width: 95%;
+    padding: 10px;
+    margin: 10px;
+    color: #777777;
+    text-align: center;
+    background: #ebebeb;
+}
+
+.clear{
+    clear: both;
+}
+
+
+/* 
 nav{
     background-color: white;
     color: gray;
@@ -58,26 +100,17 @@ nav{
     color: gray;
 }
 
-#aside{
+.aside{
     background-color: white;
     color: gray;
-    padding-top: 5%;
-    padding-left: 3%;
-    padding-right: 3%;
-    padding-bottom: 3%;
-    margin-top: 3%;
+    display: block;
     float: right;
+    width: 40%;
+    height: 267px;
+    overflow: hidden;
 }
 
 section{
-    /* float: left; */
-    text-align: center; 
-    /* padding-top: 5%;
-    padding-left: 3%;
-    padding-right: 3%;
-    padding-bottom: 3%;
-    margin-top: 3%; */
-    background-color: white;
 }
 
 footer{
@@ -87,4 +120,4 @@ footer{
     margin-top: 3%;
     margin-bottom: 3%;
     padding: 5%;
-}
+} */
